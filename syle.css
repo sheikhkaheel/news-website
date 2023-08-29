@@ -1,0 +1,45 @@
+#header{
+    background-color: black;
+    height: 100px;
+}
+#imglogo{
+    width: 100px;
+    position: relative;
+    top: -200px;
+}
+#img{
+    width: 600px;
+    height: 300px;
+    position: relative;
+    top: -210px;
+    left: 300px;
+}
+#nav{
+    background-color: rgb(43, 43, 43);
+    height: 60px;
+    cursor: pointer;
+}
+#ulItem{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-around;
+    font-size: 20px;
+    padding: 17px 10px 10px 0px;
+    margin-left: -50px;
+    color: white;
+}
+#liItem{
+    border: 0px solid;
+}
+#liItem:hover,#nav:hover{
+    color: rgb(12, 12, 12);
+    background-color: rgb(117, 119, 120);
+}
+#content{
+    padding: 20px;
+    font-family:fantasy;
+}
+p{
+    font-family:monospace;
+}
