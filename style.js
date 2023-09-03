@@ -149,7 +149,7 @@ let ul = document.createElement('ul');
 ul.id = 'ulItem'
 for (let i = 0; i < arrContent.length; i++) {
     let li = document.createElement('li');
-    li.id = 'liItem';
+    li.id = `${i}_liItem`;
     li.innerHTML = arrContent[i].naviteam;
 
     main = document.getElementById('content');
